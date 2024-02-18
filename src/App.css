@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.Main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+body{
+  background-color: antiquewhite; /* Daca vreau ca tot bg al unei aplicatii web sa aiba o culoare folosesc body */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Form-BG{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: #141414;
+  height: 400px;
+  width: 500px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 10px;
+}
+.Form-BG h1{
+  color: #edefee;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.Form-BG label{
+  color: #edefee;
+  margin-bottom: 5px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Form-BG form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Form-BG input{
+  width: 200px;
+  height: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  
+}
+
+button{
+  background-color: green;
+  color: #edefee;
+  font-size: 16px;
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 33px;
 }
